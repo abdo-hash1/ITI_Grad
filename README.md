@@ -39,8 +39,3 @@ A significant frequency offset can prevent the receiver from locking onto the si
 3. The resulting signal is a complex sinusoid whose frequency is equal to the CFO.  
 4. An autocorrelation is performed on this signal. The phase of the correlation result is directly proportional to the frequency offset, which can then be calculated and corrected.
 
-## **5\. Sample Simulation Result**
-
-The following plot shows the output of the simulation, comparing the measured BER against the theoretical performance of QPSK. The close match validates the correctness of the entire simulated transceiver chain, including the synchronization algorithms.  
-*The jaggedness of the simulated curve at lower BER values indicates that more packets should be simulated to achieve statistical convergence.*
-
